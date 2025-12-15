@@ -17,7 +17,7 @@ type IPostProps = {
   title: string;
   description: string;
   date: string;
-  modified_date: string;
+  modified_date: string | null;
   image: string;
   content: string;
 };

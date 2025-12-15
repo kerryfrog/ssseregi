@@ -13,7 +13,7 @@ type IMetaProps = {
   post?: {
     image: string;
     date: string;
-    modified_date: string;
+    modified_date: string | null;
   };
 };
 
@@ -101,11 +101,13 @@ const Meta = (props: IMetaProps) => {
               content={new Date(props.post.date).toISOString()}
               key="article:published_time"
             />
-            <meta
-              property="article:modified_time"
-              content={new Date(props.post.modified_date).toISOString()}
-              key="article:modified_time"
-            />
+            {props.post.modified_date && (
+              <meta
+                property="article:modified_time"
+                content={new Date(props.post.modified_date).toISOString()}
+                key="article:modified_time"
+              />
+            )}
             <script
               type="application/ld+json"
               // eslint-disable-next-line react/no-danger
@@ -136,9 +138,13 @@ const Meta = (props: IMetaProps) => {
             "headline": "${props.title} | ${AppConfig.site_name}",
             "image": ["${AppConfig.url}${router.basePath}${props.post.image}"],
             "datePublished": "${new Date(props.post.date).toISOString()}",
-            "dateModified": "${new Date(
+            ${
               props.post.modified_date
-            ).toISOString()}",
+                ? `"dateModified": "${new Date(
+                    props.post.modified_date
+                  ).toISOString()}",`
+                : ''
+            }
             "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "${AppConfig.url}${router.basePath}${addTrailingSlash(
