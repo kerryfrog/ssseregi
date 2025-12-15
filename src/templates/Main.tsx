@@ -41,6 +41,19 @@ const Main = (props: IMainProps) => (
       <div className="text-xl py-5">{props.children}</div>
 
       <div className="border-t border-gray-300 text-center py-8 text-sm">
+        <div className="mb-3 flex justify-center space-x-4">
+          <Link href="/about/">
+            <a className="hover:text-gray-900">소개</a>
+          </Link>
+          <span>|</span>
+          <Link href="/contact/">
+            <a className="hover:text-gray-900">연락처</a>
+          </Link>
+          <span>|</span>
+          <Link href="/privacy/">
+            <a className="hover:text-gray-900">개인정보처리방침</a>
+          </Link>
+        </div>
         © Copyright {new Date().getFullYear()} {AppConfig.title}. Powered with{' '}
         <span role="img" aria-label="Love">
           ♥

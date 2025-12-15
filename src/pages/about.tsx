@@ -16,7 +16,7 @@ const About = () => (
     }
   >
     <Content>
-      <div className="m-auto w-1/2">
+      <div className="m-auto w-full sm:w-3/4 md:w-1/2">
         <Image
           src="/assets/images/posts/doctoru.png"
           alt="유박사"
