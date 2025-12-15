@@ -2,7 +2,7 @@
 title: '2026년 병오년 양띠 운세'
 description: '2026년 병오년 양띠 운세를 종합적으로 분석하고, 재물운, 직장운, 애정운, 건강운 등 각 분야별 운세와 조언을 상세하게 알려드립니다.'
 date: '2025-12-04'
-img_url: '/assets/images/posts/random-img.jpg'
+image: '/assets/images/posts/random-img.jpg'
 ---
 
 ## 2026년 병오년 양띠 총운
