@@ -53,3 +53,18 @@ author: 'Gemini'
 사주팔자는 당신의 인생이라는 항해를 도와주는 '나침반'과 같습니다. 정해진 길을 강요하는 것이 아니라, 당신이 더 현명하고 행복한 길을 선택할 수 있도록 돕는 안내자인 셈이죠.
 
 혹시 당신의 인생 설명서가 궁금하지 않으신가요? 가까운 철학관이나 온라인 서비스를 통해 당신의 사주팔자를 한번 확인해보는 것은 어떨까요? 생각보다 더 흥미로운 '나'를 발견하게 될지도 모릅니다.
+
+## 함께 읽어보면 좋은 글
+- [사주팔자의 네 기둥: 년주, 월주, 일주, 시주](/posts/2025-11-05-four-pillars-of-saju)
+- [사주팔자, 나의 본질을 알려주는 일간(日干)과 오행(五行)](/posts/2025-12-15-understanding-saju-ilgan-and-ohaeng)
+- [사주, 양력으로 보나요 음력으로 보나요? 유박사의 명쾌한 답변](/posts/2025-12-15-saju-solar-vs-lunar-calendar)
+- [대운(大運)이란 무엇일까? 당신의 10년 주기 인생 나침반](/posts/2025-12-16-understanding-daewoon)
+- [사주에서 용신(用神)과 희신(喜神)의 중요성](/posts/2025-12-15-saju-yongsin-huisin-importance)
+
+
+## 함께 읽어보면 좋은 글
+- [사주팔자의 네 기둥: 년주, 월주, 일주, 시주](/posts/2025-11-05-four-pillars-of-saju)
+- [사주팔자, 나의 본질을 알려주는 일간(日干)과 오행(五行)](/posts/2025-12-15-understanding-saju-ilgan-and-ohaeng)
+- [사주, 양력으로 보나요 음력으로 보나요? 유박사의 명쾌한 답변](/posts/2025-12-15-saju-solar-vs-lunar-calendar)
+- [대운(大運)이란 무엇일까? 당신의 10년 주기 인생 나침반](/posts/2025-12-16-understanding-daewoon)
+- [사주에서 용신(用神)과 희신(喜神)의 중요성](/posts/2025-12-15-saju-yongsin-huisin-importance)
