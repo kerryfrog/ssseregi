@@ -19,58 +19,65 @@ type IPostProps = {
   description: string;
   date: string;
   modified_date: string | null;
-  image: string;
+  image: string | null;
   content: string;
   previousPost: PostItems | null;
   nextPost: PostItems | null;
 };
 
-const DisplayPost = (props: IPostProps) => (
-  <Main
-    meta={
-      <Meta
-        title={props.title}
-        description={props.description}
-        post={{
-          image: props.image,
-          date: props.date,
-          modified_date: props.modified_date,
-        }}
-      />
-    }
-  >
-    <h1 className="text-center font-bold text-3xl text-gray-900">
-      {props.title}
-    </h1>
-    <div className="text-center text-sm mb-8">
-      {format(new Date(props.date), 'LLLL d, yyyy')}
-    </div>
+const DisplayPost = (props: IPostProps) => {
+  const metaPost = props.image
+    ? {
+        image: props.image,
+        date: props.date,
+        modified_date: props.modified_date,
+      }
+    : undefined;
+  return (
+    <Main
+      meta={
+        <Meta
+          title={props.title}
+          description={props.description}
+          post={metaPost}
+        />
+      }
+    >
+      <>
+        <h1 className="text-center font-bold text-3xl text-gray-900">
+          {props.title}
+        </h1>
+        <div className="text-center text-sm mb-8">
+          {format(new Date(props.date), 'LLLL d, yyyy')}
+        </div>
 
-    <Content>
-      <div
-        // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: props.content }}
-      />
-    </Content>
+        <Content>
+          <div
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{ __html: props.content }}
+          />
+        </Content>
 
-    <div className="mt-8 flex justify-between">
-      {props.previousPost && (
-        <Link href={`/posts/${props.previousPost.slug}`}>
-          <a className="text-lg font-bold text-blue-600 hover:underline">
-            &larr; 이전 글: {props.previousPost.title}
-          </a>
-        </Link>
-      )}
-      {props.nextPost && (
-        <Link href={`/posts/${props.nextPost.slug}`}>
-          <a className="text-lg font-bold text-blue-600 hover:underline">
-            다음 글: {props.nextPost.title} &rarr;
-          </a>
-        </Link>
-      )}
-    </div>
-  </Main>
-);
+        <div className="mt-8 flex justify-between">
+          {props.previousPost && (
+            <Link href={`/posts/${props.previousPost.slug}`}>
+              <a className="text-lg font-bold text-blue-600 hover:underline">
+                &larr; 이전 글: {props.previousPost.title}
+              </a>
+            </Link>
+          )}
+          {props.nextPost && (
+            <Link href={`/posts/${props.nextPost.slug}`}>
+              <a className="text-lg font-bold text-blue-600 hover:underline">
+                다음 글: {props.nextPost.title} &rarr;
+              </a>
+            </Link>
+          )}
+        </div>
+      </>
+    </Main>
+  );
+};
 
 export const getStaticPaths: GetStaticPaths<IPostUrl> = async () => {
   const posts = getAllPosts(['slug']);
@@ -110,7 +117,7 @@ export const getStaticProps: GetStaticProps<IPostProps, IPostUrl> = async ({
       description: post.description,
       date: post.date,
       modified_date: post.modified_date || null,
-      image: post.image,
+      image: post.image || null,
       content,
       previousPost,
       nextPost,

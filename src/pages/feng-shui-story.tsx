@@ -9,10 +9,13 @@ import { Main } from '../templates/Main';
 import { AppConfig } from '../utils/AppConfig';
 import { getAllPosts } from '../utils/Content';
 
-const Index = (props: IBlogGalleryProps) => (
+const FengShuiStory = (props: IBlogGalleryProps) => (
   <Main
     meta={
-      <Meta title="서도사의 인생로드맵" description={AppConfig.description} />
+      <Meta
+        title="풍수지리 이야기"
+        description="풍수지리에 대한 일반적인 이야기와 설명을 담은 글 목록입니다."
+      />
     }
   >
     <BlogGallery posts={props.posts} pagination={props.pagination} />
@@ -20,7 +23,14 @@ const Index = (props: IBlogGalleryProps) => (
 );
 
 export const getStaticProps: GetStaticProps<IBlogGalleryProps> = async () => {
-  const posts = getAllPosts(['title', 'date', 'slug', 'image', 'description']);
+  const posts = getAllPosts([
+    'title',
+    'date',
+    'slug',
+    'image',
+    'description',
+    'category',
+  ]).filter((post) => post.category === 'feng-shui-story');
   const pagination: IPaginationProps = {};
 
   if (posts.length > AppConfig.pagination_size) {
@@ -35,4 +45,4 @@ export const getStaticProps: GetStaticProps<IBlogGalleryProps> = async () => {
   };
 };
 
-export default Index;
+export default FengShuiStory;

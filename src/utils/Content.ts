@@ -26,8 +26,12 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
       items[field] = realSlug;
     } else if (field === 'content') {
       items[field] = content;
-    } else if (typeof data[field] !== 'undefined') {
-      items[field] = data[field];
+    } else if (data[field]) {
+      if (field === 'date') {
+        items[field] = data[field].toString();
+      } else {
+        items[field] = data[field];
+      }
     }
   });
 

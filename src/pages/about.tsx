@@ -10,26 +10,27 @@ const About = () => (
   <Main
     meta={
       <Meta
-        title="이도사 소개 | 인생 로드맵"
-        description="풍수지리 전문가 이도사를 소개합니다."
+        title="서도사 소개 | 서도사의 풍수지리"
+        description="풍수지리 전문가 서도사를 소개합니다."
       />
     }
   >
     <Content>
-      <div className="m-auto w-full sm:w-3/4 md:w-1/2">
+      <div className="flex justify-center">
         <Image
-          src="/assets/images/posts/doctoru.png"
-          alt="이도사"
-          width={400}
+          src="/assets/images/mountain.jpg"
+          alt="산의 정기"
+          width={600}
           height={400}
+          className="rounded-lg"
         />
       </div>
-      <h2 className="text-center">
-        인생의 나침반, 풍수지리 전문가 이도사입니다.
+      <h2 className="text-center mt-8">
+        인생의 나침반, 풍수지리 전문가 서도사입니다.
       </h2>
       <p className="mt-4">
-        안녕하십니까. &apos;이도사의 인생 로드맵&apos; 블로그를 운영하는
-        이도사입니다. 지난 20여 년간 풍수지리의 깊이를 탐구하며 수많은 분들의
+        안녕하십니까. &apos;서도사의 풍수지리&apos; 블로그를 운영하는
+        서도사입니다. 지난 20여 년간 풍수지리의 깊이를 탐구하며 수많은 분들의
         인생 여정에서 길잡이가 되어드렸습니다.
       </p>
       <p className="mt-4">

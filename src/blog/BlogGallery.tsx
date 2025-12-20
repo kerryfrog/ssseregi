@@ -13,21 +13,28 @@ export type IBlogGalleryProps = {
 
 const BlogGallery = (props: IBlogGalleryProps) => (
   <>
-    <ul>
+    <div className="flex flex-col gap-8">
       {props.posts.map((elt) => (
-        <li key={elt.slug} className="mb-3 flex justify-between">
-          <Link href="/posts/[slug]" as={`/posts/${elt.slug}`}>
-            <a>
-              <h2>{elt.title}</h2>
-            </a>
-          </Link>
-
-          <div className="text-right">
-            {format(new Date(elt.date), 'LLL d, yyyy')}
-          </div>
-        </li>
+        <Link href="/posts/[slug]" as={`/posts/${elt.slug}`} key={elt.slug}>
+          <a className="block transform hover:scale-105 transition-transform duration-300 ease-in-out">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden h-full flex flex-row">
+              <img
+                src={elt.image || '/assets/images/posts/random-img.jpg'}
+                alt={elt.title}
+                className="w-1/3 h-32 object-cover"
+              />
+              <div className="p-6 flex flex-col justify-center">
+                <h2 className="text-2xl font-bold mb-2">{elt.title}</h2>
+                <p className="text-gray-700 mb-4">{elt.description}</p>
+                <div className="text-sm text-gray-600">
+                  {format(new Date(elt.date), 'LLL d, yyyy')}
+                </div>
+              </div>
+            </div>
+          </a>
+        </Link>
       ))}
-    </ul>
+    </div>
 
     <Pagination
       previous={props.pagination.previous}
