@@ -7,7 +7,12 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={AppConfig.locale}>
-        <Head />
+        <Head>
+          <meta
+            name="google-site-verification"
+            content="BDUiit7wKe-XhzBlJa3x3l8S9fyKuiHCSVLi2fWzC7g"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
