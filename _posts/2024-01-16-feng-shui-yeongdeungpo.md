@@ -3,7 +3,8 @@ title: '영등포구의 풍수지리: 신령스러운 등나무, 정치와 금�
 description: '국회의사당과 금융의 중심지 여의도로 대표되는 영등포구의 풍수지리를 분석합니다. 왜 영등포는 대한민국 정치와 경제의 심장부가 되었을까요? 서도사가 영등포의 지리적 특성과 기운의 흐름을 통해 그 비밀을 알려드립니다.'
 date: '2024-01-16'
 slug: 'feng-shui-yeongdeungpo'
-author: '서도사'\ncategory: 'seoul-feng-shui'
+author: '서도사'
+category: 'seoul-feng-shui'
 image: '/assets/images/seoul_map.png'
 ---
 

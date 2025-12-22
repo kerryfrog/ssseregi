@@ -3,7 +3,8 @@ title: '구로구의 풍수지리: 아홉 노인이 장수를 누린 땅, 첨단
 description: '과거 공업단지에서 첨단 디지털 산업단지로 변모한 구로구의 풍수지리를 분석합니다. 아홉 노인이 장수했다는 전설을 간직한 이곳은 어떤 기운을 품고 있을까요? 서도사가 구로구의 지리적 특성과 변화의 힘을 알려드립니다.'
 date: '2024-01-14'
 slug: 'feng-shui-guro'
-author: '서도사'\ncategory: 'seoul-feng-shui'
+author: '서도사'
+category: 'seoul-feng-shui'
 image: '/assets/images/seoul_map.png'
 ---
 

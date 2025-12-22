@@ -8,12 +8,7 @@ import { Main } from '../templates/Main';
 
 const About = () => (
   <Main
-    meta={
-      <Meta
-        title="서도사 소개 | 서도사의 풍수지리"
-        description="풍수지리 전문가 서도사를 소개합니다."
-      />
-    }
+    meta={<Meta title="소개" description="서도사의 풍수지리 블로그 소개" />}
   >
     <Content>
       <div className="flex justify-center">

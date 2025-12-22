@@ -49,6 +49,8 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
   return items;
 }
 
+// src/utils/Content.ts
+
 export function getAllPosts(fields: string[] = []) {
   const slugs = getPostSlugs();
   const posts = slugs
@@ -75,10 +77,19 @@ export function getAllPosts(fields: string[] = []) {
           }
         }
       });
-      return items;
+
+      // 정렬을 위해 원본 날짜 데이터(data.date)를 함께 반환합니다.
+      return { items, rawDate: data.date };
     })
-    .filter((post): post is PostItems => post !== null) // Filter out the null (invalid) posts
-    // sort posts by date in descending order
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
+    .filter((post) => post !== null)
+    // 날짜 객체로 변환하여 타임스탬프 기준으로 내림차순 정렬 (최신순)
+    .sort((post1, post2) => {
+      const date1 = new Date(post1!.rawDate).getTime();
+      const date2 = new Date(post2!.rawDate).getTime();
+      return date2 - date1;
+    })
+    // 정렬된 결과에서 최종 아이템 객체만 추출
+    .map((post) => post!.items);
+
   return posts;
 }

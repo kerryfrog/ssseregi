@@ -7,6 +7,7 @@ import { convertUrlToLinkHref } from '../utils/Pagination';
 export type IPaginationProps = {
   previous?: string;
   next?: string;
+  current?: number; // Added for page number in title
 };
 
 const Pagination = (props: IPaginationProps) => (

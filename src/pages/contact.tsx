@@ -8,8 +8,8 @@ const Contact = () => (
   <Main
     meta={
       <Meta
-        title="연락처 | 서도사의 풍수지리"
-        description="블로그 관련 문의나 제안 사항이 있으시면 언제든지 연락주세요."
+        title="연락처"
+        description="서도사에게 연락하시려면 아래 양식을 사용해 주세요."
       />
     }
   >

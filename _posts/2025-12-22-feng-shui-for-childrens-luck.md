@@ -1,7 +1,7 @@
 ---
 title: '자식운을 높이는 풍수지리, 우리 아이의 미래를 밝히다'
 description: '자녀의 건강과 학업, 그리고 대인관계까지, 아이의 모든 것이 잘되기를 바라는 것이 모든 부모의 마음입니다. 아이 방의 가구 배치와 작은 소품 하나로 자식운을 높이는 풍수지리 비결을 서도사가 알려드립니다.'
-date: '2025-12-22'
+date: '2025-12-23'
 slug: 'feng-shui-for-childrens-luck'
 author: '서도사'
 image: '/assets/images/saju.png'

@@ -8,8 +8,8 @@ const Privacy = () => (
   <Main
     meta={
       <Meta
-        title="개인정보처리방침 | 서도사의 풍수지리"
-        description="서도사의 풍수지리 블로그의 개인정보처리방침입니다."
+        title="개인정보처리방침"
+        description="서도사 블로그의 개인정보처리방침입니다."
       />
     }
   >

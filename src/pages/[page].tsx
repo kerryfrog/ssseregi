@@ -15,7 +15,14 @@ type IPageUrl = {
 };
 
 const PaginatePosts = (props: IBlogGalleryProps) => (
-  <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
+  <Main
+    meta={
+      <Meta
+        title={`페이지 ${props.pagination.current} | ${AppConfig.site_name}`}
+        description={AppConfig.description}
+      />
+    }
+  >
     <BlogGallery posts={props.posts} pagination={props.pagination} />
   </Main>
 );
@@ -48,7 +55,9 @@ export const getStaticProps: GetStaticProps<
   const currentPage = Number(params!.page.replace('page', ''));
   const currentIndex = currentPage - 1;
 
-  const pagination: IPaginationProps = {};
+  const pagination: IPaginationProps = {
+    current: currentPage, // Assign the current page number
+  };
 
   if (currentPage < pages.length) {
     pagination.next = `page${currentPage + 1}`;
