@@ -1,7 +1,7 @@
 ---
 title: '산의 좋은 기운을 우리 집으로, 어떻게 받을 것인가?'
 description: '좋은 산 근처에 사는 것만으로 복을 받을 수 있을까요? 산의 좋은 기운, 즉 생기(生氣)를 우리 집으로 효과적으로 끌어들이는 구체적인 방법에 대해 알아봅니다. 서도사와 함께 복을 부르는 집의 조건을 만들어 보세요.'
-date: '2026-01-05'
+date: '2024-01-05'
 slug: 'feng-shui-good-energy-from-mountains'
 author: '서도사'
 category: 'feng-shui-story'
@@ -40,3 +40,8 @@ category: 'feng-shui-story'
 산의 기운은 우리 눈에 보이지 않지만, 분명히 존재하며 우리 삶에 영향을 미칩니다. 오늘 알려드린 방법들을 참고하시어 여러분의 집을 산의 좋은 기운이 가득한 복된 공간으로 만들어 보시길 바랍니다.
 
 여러분의 가정에 늘 산과 같은 든든함과 평안이 함께하기를 기원합니다.
+
+## 함께 읽으면 좋은 글
+- [영화 '파묘'를 통해 본 풍수지리의 정수](/posts/feng-shui-in-movie-exhuma)
+- [풍수지리로 보는 근현대사: 역사의 흐름 속 기운의 변화](/posts/feng-shui-modern-history)
+- [풍수지리를 빛낸 역사 속 인물들: 서도사가 전하는 이야기](/posts/feng-shui-historical-figures)

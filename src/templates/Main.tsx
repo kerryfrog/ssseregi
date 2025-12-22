@@ -17,7 +17,7 @@ const Main = (props: IMainProps) => {
   const router = useRouter();
 
   return (
-    <div className="antialiased w-full text-gray-700 px-3 md:px-0">
+    <div className="antialiased w-full text-gray-700 px-3 sm:px-6">
       {props.meta}
 
       <div className="max-w-screen-md mx-auto">
@@ -26,7 +26,7 @@ const Main = (props: IMainProps) => {
             <div className="font-semibold text-3xl text-gray-900">
               {AppConfig.title}
             </div>
-            <div className="text-xl">{AppConfig.description}</div>
+            <div className="text-gray-900">{AppConfig.description}</div>
           </div>
           <div>
             <Navbar>
@@ -81,7 +81,7 @@ const Main = (props: IMainProps) => {
           </div>
         </div>
 
-        <div className="text-xl py-5">{props.children}</div>
+        <div className="py-5">{props.children}</div>
 
         <div className="border-t border-gray-300 text-center py-8 text-sm">
           <div className="mb-3 flex justify-center space-x-4">

@@ -1,7 +1,7 @@
 ---
 title: '관악구의 풍수지리: 불꽃 같은 산 아래, 대한민국 지성의 요람'
 description: '서울대학교가 자리한 대한민국 지성의 중심, 관악구의 풍수지리를 분석합니다. 왜 관악산은 예로부터 명산으로 꼽혔으며, 어떻게 이곳은 학문의 중심이 되었을까요? 서도사가 관악구의 지리적 특성과 기운의 흐름을 통해 그 비밀을 알려드립니다.'
-date: '2026-01-20'
+date: '2024-01-20'
 slug: 'feng-shui-gwanak'
 author: '서도사'\ncategory: 'seoul-feng-shui'
 image: '/assets/images/seoul_map.png'

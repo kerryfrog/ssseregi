@@ -1,7 +1,7 @@
 ---
 title: 영화 '파묘'를 통해 본 풍수지리의 정수
 description: 서도사가 영화 '파묘'를 풍수지리학자의 관점에서 깊이 있게 분석합니다. 땅의 기운과 조상, 그리고 후손의 관계에 대한 통찰.
-date: 2026-02-01
+date: 2024-08-08
 slug: feng-shui-in-movie-exhuma
 category: 'feng-shui-story'
 ---
@@ -37,3 +37,8 @@ category: 'feng-shui-story'
 다음에는 또 다른 흥미로운 풍수 이야기로 찾아오겠네.
 
 **서도사 합장**
+
+## 함께 읽으면 좋은 글
+- [산의 좋은 기운을 우리 집으로, 어떻게 받을 것인가?](/posts/feng-shui-good-energy-from-mountains)
+- [풍수지리로 보는 근현대사: 역사의 흐름 속 기운의 변화](/posts/feng-shui-modern-history)
+- [풍수지리를 빛낸 역사 속 인물들: 서도사가 전하는 이야기](/posts/feng-shui-historical-figures)

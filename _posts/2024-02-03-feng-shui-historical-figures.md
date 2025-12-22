@@ -1,7 +1,7 @@
 ---
 title: '풍수지리를 빛낸 역사 속 인물들: 서도사가 전하는 이야기'
 description: '서도사가 전하는 풍수지리 역사 속 주요 인물들, 그들의 지혜와 발자취. 도선대사, 무학대사, 그리고 풍수를 통해 시대를 바꾼 군주들의 이야기.'
-date: '2026-02-03'
+date: '2024-02-03'
 slug: 'feng-shui-historical-figures'
 category: 'feng-shui-story'
 ---
@@ -33,3 +33,8 @@ category: 'feng-shui-story'
 자네들도 이들의 발자취를 통해 풍수지리의 참된 가치를 되새겨 보길 바라네.
 
 **서도사 합장**
+
+## 함께 읽으면 좋은 글
+- [산의 좋은 기운을 우리 집으로, 어떻게 받을 것인가?](/posts/feng-shui-good-energy-from-mountains)
+- [영화 '파묘'를 통해 본 풍수지리의 정수](/posts/feng-shui-in-movie-exhuma)
+- [풍수지리로 보는 근현대사: 역사의 흐름 속 기운의 변화](/posts/feng-shui-modern-history)

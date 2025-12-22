@@ -17,13 +17,13 @@ const BlogGallery = (props: IBlogGalleryProps) => (
       {props.posts.map((elt) => (
         <Link href="/posts/[slug]" as={`/posts/${elt.slug}`} key={elt.slug}>
           <a className="block transform hover:scale-105 transition-transform duration-300 ease-in-out">
-            <div className="bg-white rounded-lg shadow-md overflow-hidden h-full flex flex-row">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden h-full grid grid-cols-3">
               <img
                 src={elt.image || '/assets/images/posts/random-img.jpg'}
                 alt={elt.title}
-                className="w-1/3 h-32 object-cover"
+                className="h-full object-cover"
               />
-              <div className="p-6 flex flex-col justify-center">
+              <div className="p-6 flex flex-col justify-center col-span-2">
                 <h2 className="text-2xl font-bold mb-2">{elt.title}</h2>
                 <p className="text-gray-700 mb-4">{elt.description}</p>
                 <div className="text-sm text-gray-600">

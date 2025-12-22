@@ -1,7 +1,7 @@
 ---
 title: '직업운을 높이는 책상 풍수, 당신의 직업은 무엇인가요?'
 description: '학생, 직장인, 예술가, 사업가 등 각 직업에 맞는 책상 풍수 인테리어 비법을 알려드립니다. 책상 위치부터 소품 배치까지, 당신의 성공을 돕는 맞춤형 풍수지리 팁을 서도사가 전수합니다.'
-date: '2026-02-08'
+date: '2024-02-08'
 slug: 'feng-shui-for-occupations'
 author: '서도사'
 category: 'living-feng-shui'
@@ -48,3 +48,8 @@ category: 'living-feng-shui'
 ---
 
 자신의 직업에 맞는 책상 풍수를 통해 일의 능률을 높이고, 나아가 직업적인 성공과 재물의 풍요를 모두 이루시길 바랍니다. 작은 변화가 당신의 운명을 바꿀 수 있음을 기억하십시오.
+
+## 함께 읽으면 좋은 글
+- [가족의 화목과 재물을 부르는 거실 풍수지리](/posts/living-room-feng-shui)
+- [돈이 모이는 집은 따로 있다? 재물운을 부르는 풍수지리 비결](/posts/feng-shui-for-wealth)
+- [복을 부르는 첫인상, 현관 풍수지리](/posts/front-door-feng-shui)

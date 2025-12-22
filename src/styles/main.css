@@ -8,6 +8,10 @@ a:hover {
   @apply underline;
 }
 
+.responsive-img {
+  @apply block max-w-full h-auto;
+}
+
 @tailwind components;
 
 @tailwind utilities;

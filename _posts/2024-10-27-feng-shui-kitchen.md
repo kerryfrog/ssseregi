@@ -1,8 +1,9 @@
 ---
 title: 주방 풍수지리, 복을 부르는 공간 활용법
 description: '주방은 가족의 건강과 재물운을 관장하는 중요한 공간입니다. 가스레인지와 싱크대 배치부터 식기 정리, 주방 색상 선택까지, 복을 부르고 재물을 쌓이게 하는 주방 풍수지리 비법을 서도사가 상세히 알려드립니다.'
-date: 2026-01-01
+date: 2024-10-27
 slug: feng-shui-kitchen
+image: '/assets/images/posts/kitchen.jpg'
 category: 'living-feng-shui'
 ---
 
@@ -47,3 +48,8 @@ category: 'living-feng-shui'
 복 많이 받으시게!
 
 **서도사 합장**
+
+## 함께 읽으면 좋은 글
+- [가족의 화목과 재물을 부르는 거실 풍수지리](/posts/living-room-feng-shui)
+- [돈이 모이는 집은 따로 있다? 재물운을 부르는 풍수지리 비결](/posts/feng-shui-for-wealth)
+- [복을 부르는 첫인상, 현관 풍수지리](/posts/front-door-feng-shui)

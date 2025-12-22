@@ -1,7 +1,7 @@
 ---
 title: '동작구의 풍수지리: 구릿빛 나루, 충효와 학문의 고장이 되다'
 description: '국립현충원이 자리한 충효의 고장, 동작구의 풍수지리를 분석합니다. 왜 동작구는 나라를 지킨 영령들이 잠든 성스러운 땅이 되었을까요? 서도사가 동작구의 지리적 특성과 기운의 흐름을 통해 그 비밀을 알려드립니다.'
-date: '2026-01-18'
+date: '2024-01-18'
 slug: 'feng-shui-dongjak'
 author: '서도사'\ncategory: 'seoul-feng-shui'
 image: '/assets/images/seoul_map.png'
