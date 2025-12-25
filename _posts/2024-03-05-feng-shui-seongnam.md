@@ -1,8 +1,8 @@
 ---
 title: 성남시 풍수지리, 과연 명당일까?
 description: "오랜 세월 풍수지리를 연구하며 수많은 땅을 보았지만, 성남시처럼 역동적인 에너지를 가진 곳은 흔치 않습니다. 오늘은 성남의 터를 이야기해보려 합니다."
-date: 2024-03-05
-image: /assets/images/posts/random-img.jpg
+date: 2025-12-25
+slug: feng-shui-seongnam
 ---
 
 **안녕하세요, 풍수지리 연구 20년, 서도사입니다.**
