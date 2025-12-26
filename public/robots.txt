@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ssseregi.com/sitemap.xml
