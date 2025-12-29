@@ -18,7 +18,7 @@ const Contact = () => (
       <p>
         &apos;서도사의 풍수지리&apos; 블로그에 대한 문의, 제휴, 또는 기타 제안
         사항이 있으시면 아래 이메일로 연락 주시기 바랍니다. 보내주신 내용은
-        꼼꼼히 검토한 후 회신드리겠습니다.
+        꼼꼼히 검토한 후, 24시간 이내에 답변드리겠습니다.
       </p>
       <p className="mt-4">
         <strong>이메일:</strong> kerryfrog@naver.com

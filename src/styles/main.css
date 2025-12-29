@@ -15,3 +15,7 @@ a:hover {
 @tailwind components;
 
 @tailwind utilities;
+
+.prose h2 {
+  @apply text-2xl font-bold mt-8 mb-4 pb-2 border-b-2 border-gray-300;
+}

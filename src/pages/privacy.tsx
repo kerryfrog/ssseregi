@@ -70,6 +70,13 @@ const Privacy = () => (
         수정이 있을 시에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할
         것입니다.
       </p>
+
+      <h3 className="mt-4">6. 개인정보 보호 책임자</h3>
+      <p>
+        - 이름: 서도사
+        <br />- 이메일: kerryfrog@naver.com
+      </p>
+
       <p className="mt-2">본 방침은 2025년 12월 15일부터 시행됩니다.</p>
     </Content>
   </Main>
