@@ -20,6 +20,16 @@ type IMetaProps = {
 const Meta = (props: IMetaProps) => {
   const router = useRouter();
 
+  // AppConfig.url의 끝에 슬래시가 있을 수 있으므로 처리
+  const baseUrl = AppConfig.url.endsWith('/')
+    ? AppConfig.url.slice(0, -1)
+    : AppConfig.url;
+
+  // props.canonical이 있으면 그것을 쓰고, 없으면 현재 경로를 기반으로 자동 생성
+  const canonicalUrl =
+    props.canonical ||
+    `${baseUrl}${router.basePath}${addTrailingSlash(router.asPath)}`;
+
   return (
     <>
       <Head>
@@ -43,9 +53,8 @@ const Meta = (props: IMetaProps) => {
           key="description"
         />
         <meta name="author" content={AppConfig.author} key="author" />
-        {props.canonical && (
-          <link rel="canonical" href={props.canonical} key="canonical" />
-        )}
+        {/* 수정된 부분: 무조건 canonical 태그를 생성합니다. */}
+        <link rel="canonical" href={canonicalUrl} key="canonical" />
         <meta
           property="og:title"
           content={`${props.title} | ${AppConfig.site_name}`}
