@@ -5,7 +5,12 @@ date: '2024-01-02'
 slug: 'feng-shui-value-of-mountains'
 author: '서도사'
 category: 'feng-shui-story'
+image: '/assets/images/mountain.jpg'
 ---
+
+# 풍수지리와 산(山): 왜 명당은 산을 떠나 논할 수 없는가?
+
+![풍수지리의 근원, 웅장한 산](/assets/images/mountain.jpg "산이 주는 생명의 기운")
 
 안녕하십니까, 풍수지리를 연구하는 서도사입니다.
 

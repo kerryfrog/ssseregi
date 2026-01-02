@@ -5,7 +5,12 @@ date: '2024-01-05'
 slug: 'feng-shui-good-energy-from-mountains'
 author: '서도사'
 category: 'feng-shui-story'
+image: '/assets/images/mountain-next-house.jpg'
 ---
+
+# 산의 좋은 기운을 우리 집으로, 어떻게 받을 것인가?
+
+![산의 좋은 기운을 받는 집](/assets/images/mountain-next-house.jpg "산의 좋은 기운을 받는 이상적인 집터")
 
 안녕하십니까, 풍수지리를 연구하는 서도사입니다.
 

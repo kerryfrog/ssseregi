@@ -5,8 +5,12 @@ date: '2024-01-18'
 slug: 'feng-shui-dongjak'
 author: '서도사'
 category: 'seoul-feng-shui'
-image: '/assets/images/seoul_map.png'
+image: '/assets/images/dongjackgu.webp'
 ---
+
+# 동작구의 풍수지리: 구릿빛 나루, 충효와 학문의 고장이 되다
+
+![동작구 풍수지리 전경](/assets/images/dongjackgu.webp "동작구의 지형과 풍수")
 
 안녕하십니까, 풍수지리를 연구하는 서도사입니다.
 
@@ -39,3 +43,8 @@ image: '/assets/images/seoul_map.png'
 ---
 
 동작구는 나라를 지키는 충의의 기운과 학문을 통해 이름을 떨치는 명예의 기운이 함께하는 성스러운 땅입니다. 이곳에 잠든 영령들의 숭고한 뜻을 기리고, 노량진의 젊은이들이 큰 꿈을 이루어 대한민국의 미래를 밝히는 인재로 성장하기를 진심으로 기원합니다.
+
+## 함께 읽으면 좋은 글
+- [조선의 심장, 경복궁의 풍수지리 - 서도사가 풀어보는 천하 명당의 비밀](/posts/gyeongbok-palace-feng-shui)
+- [관악구의 풍수지리: 지혜와 학문이 샘솟는 터](/posts/feng-shui-gwanak)
+- [용산의 풍수지리: 변화와 혁신을 주도하는 역동의 땅](/posts/feng-shui-yongsan)
