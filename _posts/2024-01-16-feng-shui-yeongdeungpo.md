@@ -5,8 +5,11 @@ date: '2024-01-16'
 slug: 'feng-shui-yeongdeungpo'
 author: '서도사'
 category: 'seoul-feng-shui'
-image: '/assets/images/seoul_map.png'
+image: '/assets/images/국회의사당.jpg'
+image-alt: '국회의사당'
 ---
+
+![국회의사당](/assets/images/국회의사당.jpg)
 
 안녕하십니까, 풍수지리를 연구하는 서도사입니다.
 
@@ -41,3 +44,13 @@ image: '/assets/images/seoul_map.png'
 ---
 
 영등포는 신령스러운 기운과 재물, 그리고 권위의 힘이 한데 어우러진 대한민국 최고의 명당 중 하나입니다. 이곳에 모인 강력한 기운이 부디 국가의 발전과 국민의 안녕을 위해 올바르게 쓰이기를 진심으로 기원합니다.
+
+---
+
+## 관련 게시글
+
+- [강남구 풍수지리](/posts/feng-shui-gangnam)
+- [서초구 풍수지리](/posts/feng-shui-seocho)
+- [송파구 풍수지리](/posts/feng-shui-songpa)
+- [용산구 풍수지리](/posts/feng-shui-yongsan)
+- [마포구 풍수지리](/posts/feng-shui-mapo)

@@ -5,8 +5,11 @@ date: '2024-01-12'
 slug: 'feng-shui-yangcheon'
 author: '서도사'
 category: 'seoul-feng-shui'
-image: '/assets/images/seoul_map.png'
+image: '/assets/images/양천구.jpg'
+image-alt: '양천구 로고'
 ---
+
+![양천구 로고 이미지](/assets/images/양천구.jpg)
 
 안녕하십니까, 풍수지리를 연구하는 서도사입니다.
 
@@ -40,7 +43,12 @@ image: '/assets/images/seoul_map.png'
 
 양천구는 밝은 햇살과 맑은 물, 그리고 학문과 성장의 기운이 조화를 이루는 땅입니다. 자녀의 교육과 안정적인 미래를 꿈꾸는 이들에게 양천은 더할 나위 없이 좋은 터전이 될 것입니다. 여러분의 가정에도 배움의 즐거움과 성장의 기쁨이 늘 함께하기를 기원합니다.
 
-## 함께 읽으면 좋은 글
-- [강남구의 풍수지리: 부와 명예가 모이는 땅](/posts/feng-shui-gangnam)
-- [강서구의 풍수지리: 김포평야의 풍요와 한강의 기운을 품다](/posts/feng-shui-gangseo)
-- [마포구의 풍수지리: 강과 강이 만나는 소통의 중심](/posts/feng-shui-mapo)
+---
+
+## 관련 게시글
+
+- [강남구 풍수지리](/posts/feng-shui-gangnam)
+- [서초구 풍수지리](/posts/feng-shui-seocho)
+- [송파구 풍수지리](/posts/feng-shui-songpa)
+- [용산구 풍수지리](/posts/feng-shui-yongsan)
+- [마포구 풍수지리](/posts/feng-shui-mapo)

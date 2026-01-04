@@ -5,8 +5,11 @@ date: '2024-01-14'
 slug: 'feng-shui-guro'
 author: '서도사'
 category: 'seoul-feng-shui'
-image: '/assets/images/seoul_map.png'
+image: '/assets/images/안양천_040.jpg'
+image-alt: '안양천'
 ---
+
+![안양천](/assets/images/안양천_040.jpg)
 
 안녕하십니까, 풍수지리를 연구하는 서도사입니다.
 
@@ -39,3 +42,13 @@ image: '/assets/images/seoul_map.png'
 ---
 
 구로구는 장수의 지혜와 풍요의 기운, 그리고 비상하는 용의 잠재력을 모두 품은 땅입니다. 낡은 과거를 벗고 눈부신 현재를 만들어가고 있는 구로의 변화 에너지를 받아, 여러분의 삶에도 긍정적인 혁신이 가득하기를 기원합니다.
+
+---
+
+## 관련 게시글
+
+- [강남구 풍수지리](/posts/feng-shui-gangnam)
+- [서초구 풍수지리](/posts/feng-shui-seocho)
+- [송파구 풍수지리](/posts/feng-shui-songpa)
+- [용산구 풍수지리](/posts/feng-shui-yongsan)
+- [마포구 풍수지리](/posts/feng-shui-mapo)

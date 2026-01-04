@@ -5,7 +5,7 @@ date: '2024-01-20'
 slug: 'feng-shui-gwanak'
 author: '서도사'
 category: 'seoul-feng-shui'
-image: '/assets/images/seoul_map.png'
+image: '/assets/images/관악구캐릭터.png'
 ---
 
 자네들, 안녕하신가? 풍수지리를 연구하며 땅의 이치를 탐구하는 서도사일세.
