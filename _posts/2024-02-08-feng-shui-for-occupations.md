@@ -5,7 +5,11 @@ date: '2024-02-08'
 slug: 'feng-shui-for-occupations'
 author: '서도사'
 category: 'living-feng-shui'
+image: '/assets/images/책상.jpg'
+image_alt: '직업운을 높이는 책상'
 ---
+
+![직업운을 높이는 책상](/assets/images/책상.jpg)
 
 안녕하십니까, '서도사의 풍수지리'의 서도사입니다.
 
