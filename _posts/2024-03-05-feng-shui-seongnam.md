@@ -3,7 +3,12 @@ title: 성남시 풍수지리, 과연 명당일까?
 description: "오랜 세월 풍수지리를 연구하며 수많은 땅을 보았지만, 성남시처럼 역동적인 에너지를 가진 곳은 흔치 않습니다. 오늘은 성남의 터를 이야기해보려 합니다."
 date: 2025-12-25
 slug: feng-shui-seongnam
+category: 'seoul-feng-shui'
+image: '/assets/images/성남시.jpg'
+image-alt: '성남시 풍경'
 ---
+
+![성남시 조망도](/assets/images/성남시.jpg)
 
 **안녕하세요, 풍수지리 연구 20년, 서도사입니다.**
 
@@ -20,3 +25,13 @@ slug: feng-shui-seongnam
 결론적으로, 성남시는 자연의 웅장한 기운과 현대 도시의 활력이 조화를 이루는 독특한 풍수적 특성을 지닌 곳입니다. 비록 인위적인 변화가 많지만, 지혜로운 배치와 관리를 통해 길운을 더욱 크게 만들 수 있는 잠재력이 충분한 명당이라 할 수 있습니다. 여러분의 가정과 사업에도 성남의 좋은 기운이 가득하시기를 서도사가 기원합니다.
 
 **서도사 드림**
+
+---
+
+## 관련 게시글
+
+- [강남구 풍수지리](/posts/feng-shui-gangnam)
+- [서초구 풍수지리](/posts/feng-shui-seocho)
+- [송파구 풍수지리](/posts/feng-shui-songpa)
+- [용산구 풍수지리](/posts/feng-shui-yongsan)
+- [마포구 풍수지리](/posts/feng-shui-mapo)
