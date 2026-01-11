@@ -5,12 +5,14 @@ date: '2023-12-30'
 slug: 'feng-shui-mapo'
 author: '서도사'
 category: 'seoul-feng-shui'
-image: '/assets/images/seoul_map.png'
+image: '/assets/images/마포구.jpg'
 ---
 
 안녕하십니까, 풍수지리를 연구하는 서도사입니다.
 
 오늘은 예로부터 한강 수운의 중심지였으며, 지금은 방송과 미디어, 예술의 중심지로 활기가 넘치는 **마포구**의 풍수지리에 대해 이야기해 보겠습니다. 마포는 어떻게 시대의 흐름에 따라 변화하며 늘 사람들의 발길을 끄는 매력적인 장소가 되었을까요?
+
+![마포구 전경](/assets/images/마포구.jpg)
 
 ## 물길이 모여 재물과 사람이 모이는 곳
 
