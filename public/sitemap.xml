@@ -2,170 +2,302 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ssseregi.com/</loc>
-    <lastmod>2025-12-29</lastmod>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://ssseregi.com/about</loc>
-    <lastmod>2025-12-29</lastmod>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ssseregi.com/contact</loc>
-    <lastmod>2025-12-29</lastmod>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ssseregi.com/feng-shui-story</loc>
-    <lastmod>2025-12-29</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/living-feng-shui</loc>
-    <lastmod>2025-12-29</lastmod>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://ssseregi.com/seoul-feng-shui</loc>
-    <lastmod>2025-12-29</lastmod>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/living-feng-shui</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://ssseregi.com/privacy</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/page2</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/page3</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/page4</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/hongkong-feng-shui-buildings</loc>
+    <lastmod>2026-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/muhak-vs-jeongdojeon</loc>
+    <lastmod>2026-01-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/bibo-feng-shui-fill-energy</loc>
+    <lastmod>2026-01-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/2026-01-01-new-year-entrance-feng-shui</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/livingroom-feng-shui-analysis</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-for-year-end</loc>
     <lastmod>2025-12-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ssseregi.com/posts/2024-02-08-feng-shui-for-occupations</loc>
-    <lastmod>2024-02-08</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-01-14-feng-shui-guro</loc>
-    <lastmod>2024-01-14</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2025-12-26-western-feng-shui</loc>
-    <lastmod>2025-12-26</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-01-12-feng-shui-yangcheon</loc>
-    <lastmod>2024-01-12</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-02-03-kitchen-feng-shui</loc>
-    <lastmod>2024-02-03</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-03-30-feng-shui-qna</loc>
-    <lastmod>2024-03-30</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-02-03-feng-shui-historical-figures</loc>
-    <lastmod>2024-02-03</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-01-10-feng-shui-gangseo</loc>
-    <lastmod>2024-01-10</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2023-12-30-feng-shui-mapo</loc>
-    <lastmod>2023-12-30</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-01-28-feng-shui-and-modern-history</loc>
-    <lastmod>2024-01-28</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-01-08-feng-shui-simple-tools</loc>
-    <lastmod>2024-01-08</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-10-30-gyeongbok-palace-feng-shui</loc>
-    <lastmod>2024-10-30</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-01-31-front-door-feng-shui</loc>
-    <lastmod>2024-01-31</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-10-27-feng-shui-kitchen</loc>
-    <lastmod>2024-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-08-08-feng-shui-in-movie-exhuma</loc>
-    <lastmod>2024-08-08</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2025-12-23-study-room-feng-shui</loc>
-    <lastmod>2025-12-23</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2025-12-29-feng-shui-for-year-end</loc>
-    <lastmod>2025-12-29</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-03-05-feng-shui-seongnam</loc>
-    <lastmod>2024-03-05</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-02-06-bathroom-feng-shui</loc>
-    <lastmod>2024-02-06</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-01-05-feng-shui-good-energy-from-mountains</loc>
-    <lastmod>2024-01-05</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2025-12-22-feng-shui-for-childrens-luck</loc>
-    <lastmod>2025-12-22</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2023-12-25-feng-shui-songpa</loc>
-    <lastmod>2023-12-25</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-01-16-feng-shui-yeongdeungpo</loc>
-    <lastmod>2024-01-16</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2023-12-23-feng-shui-seocho</loc>
-    <lastmod>2023-12-23</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2024-01-18-feng-shui-dongjak</loc>
-    <lastmod>2024-01-18</lastmod>
-  </url>
-  <url>
-    <loc>https://ssseregi.com/posts/2025-12-28-2026-new-year-feng-shui</loc>
+    <loc>https://ssseregi.com/posts/2026-new-year-feng-shui</loc>
     <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ssseregi.com/posts/2024-06-15-feng-shui-and-conglomerates</loc>
-    <lastmod>2024-06-15</lastmod>
+    <loc>https://ssseregi.com/posts/feng-shui-western</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ssseregi.com/posts/2025-12-22-digital-feng-shui</loc>
+    <loc>https://ssseregi.com/posts/study-room-feng-shui</loc>
+    <lastmod>2025-12-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-for-childrens-luck</loc>
+    <lastmod>2025-12-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/digital-feng-shui</loc>
     <lastmod>2025-12-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ssseregi.com/posts/2023-12-21-feng-shui-gangnam</loc>
-    <lastmod>2023-12-21</lastmod>
+    <loc>https://ssseregi.com/posts/gyeongbok-palace-feng-shui</loc>
+    <lastmod>2024-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ssseregi.com/posts/2023-12-28-feng-shui-yongsan</loc>
-    <lastmod>2023-12-28</lastmod>
+    <loc>https://ssseregi.com/posts/feng-shui-kitchen</loc>
+    <lastmod>2024-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ssseregi.com/posts/2024-01-20-feng-shui-gwanak</loc>
-    <lastmod>2024-01-20</lastmod>
+    <loc>https://ssseregi.com/posts/feng-shui-in-movie-exhuma</loc>
+    <lastmod>2024-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ssseregi.com/posts/2024-01-22-feng-shui-for-wealth</loc>
-    <lastmod>2024-01-22</lastmod>
+    <loc>https://ssseregi.com/posts/feng-shui-and-conglomerates</loc>
+    <lastmod>2024-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ssseregi.com/posts/2024-01-25-living-room-feng-shui</loc>
+    <loc>https://ssseregi.com/posts/feng-shui-qna</loc>
+    <lastmod>2024-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-seongnam</loc>
+    <lastmod>2025-12-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-for-occupations</loc>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/bathroom-feng-shui</loc>
+    <lastmod>2024-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/kitchen-feng-shui</loc>
+    <lastmod>2024-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-historical-figures</loc>
+    <lastmod>2024-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/front-door-feng-shui</loc>
+    <lastmod>2024-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-modern-history</loc>
+    <lastmod>2024-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/living-room-feng-shui</loc>
     <lastmod>2024-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ssseregi.com/posts/2024-01-02-feng-shui-value-of-mountains</loc>
+    <loc>https://ssseregi.com/posts/feng-shui-for-wealth</loc>
+    <lastmod>2024-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-gwanak</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-dongjak</loc>
+    <lastmod>2024-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-yeongdeungpo</loc>
+    <lastmod>2024-01-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-guro</loc>
+    <lastmod>2024-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-yangcheon</loc>
+    <lastmod>2024-01-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-gangseo</loc>
+    <lastmod>2024-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-simple-tools</loc>
+    <lastmod>2024-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-good-energy-from-mountains</loc>
+    <lastmod>2024-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-value-of-mountains</loc>
     <lastmod>2024-01-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://ssseregi.com/posts/2023-12-17-bedroom-feng-shui</loc>
+    <loc>https://ssseregi.com/posts/feng-shui-mapo</loc>
+    <lastmod>2023-12-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-yongsan</loc>
+    <lastmod>2023-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-songpa</loc>
+    <lastmod>2023-12-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-seocho</loc>
+    <lastmod>2023-12-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/feng-shui-gangnam</loc>
+    <lastmod>2023-12-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ssseregi.com/posts/bedroom-feng-shui</loc>
     <lastmod>2023-12-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

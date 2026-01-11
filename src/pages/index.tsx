@@ -15,6 +15,7 @@ const Index = (props: IBlogGalleryProps) => (
       <Meta title="서도사의 인생로드맵" description={AppConfig.description} />
     }
   >
+    <h2 className="text-lg font-semibold text-gray-800 mb-6">전체글</h2>
     <BlogGallery posts={props.posts} pagination={props.pagination} />
   </Main>
 );

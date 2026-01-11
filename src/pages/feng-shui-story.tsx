@@ -18,6 +18,9 @@ const FengShuiStory = (props: IBlogGalleryProps) => (
       />
     }
   >
+    <h2 className="text-lg font-semibold text-gray-800 mb-6">
+      풍수지리 이야기
+    </h2>
     <BlogGallery posts={props.posts} pagination={props.pagination} />
   </Main>
 );

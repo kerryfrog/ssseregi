@@ -16,6 +16,7 @@ const SeoulFengShui = (props: IBlogGalleryProps) => (
       />
     }
   >
+    <h2 className="text-lg font-semibold text-gray-800 mb-6">서울 풍수</h2>
     <BlogGallery posts={props.posts} pagination={props.pagination} />
   </Main>
 );
