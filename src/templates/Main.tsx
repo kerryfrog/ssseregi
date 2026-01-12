@@ -1,6 +1,6 @@
 'use client';
 
-import React, { ReactNode } from 'react';
+import React, { ReactNode, useState } from 'react';
 
 import Link from 'next/link';
 import { useRouter } from 'next/router';
@@ -15,6 +15,7 @@ type IMainProps = {
 
 const Main = (props: IMainProps) => {
   const router = useRouter();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div className="antialiased w-full text-gray-700 font-sans bg-gray-50 flex flex-col min-h-screen">
@@ -23,27 +24,53 @@ const Main = (props: IMainProps) => {
       {/* Header Section */}
       <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 py-4 flex flex-col md:flex-row items-center justify-between">
-          <div className="mb-4 md:mb-0 text-center md:text-left">
-            <div className="font-bold text-2xl text-gray-900 leading-tight hover:text-blue-600 transition-colors">
-              <Link href="/">
-                <a>{AppConfig.site_name}</a>
-              </Link>
+          <div className="w-full md:w-auto flex items-center justify-between mb-4 md:mb-0">
+            <div className="text-center md:text-left">
+              <div className="font-bold text-2xl text-gray-900 leading-tight hover:text-blue-600 transition-colors">
+                <Link href="/">
+                  <a>{AppConfig.site_name}</a>
+                </Link>
+              </div>
+              <div className="text-sm text-gray-500 mt-1 hidden md:block">
+                {AppConfig.description}
+              </div>
             </div>
-            <div className="text-sm text-gray-500 mt-1 hidden md:block">
-              {AppConfig.description}
+
+            {/* Mobile menu button */}
+            <div className="md:hidden">
+              <button
+                type="button"
+                className="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600"
+                aria-label="toggle menu"
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+              >
+                <svg viewBox="0 0 24 24" className="h-6 w-6 fill-current">
+                  {isMenuOpen ? (
+                    <path
+                      fillRule="evenodd"
+                      d="M18.278 16.864a1 1 0 01-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 01-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 011.414-1.414l4.829 4.828 4.828-4.828a1 1 0 111.414 1.414l-4.828 4.828 4.828 4.829z"
+                    />
+                  ) : (
+                    <path
+                      fillRule="evenodd"
+                      d="M4 5h16a1 1 0 010 2H4a1 1 0 110-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2z"
+                    />
+                  )}
+                </svg>
+              </button>
             </div>
           </div>
 
-          <nav>
+          <nav className={`${isMenuOpen ? 'block' : 'hidden'} md:block`}>
             <Navbar>
-              <li className="mr-6">
+              <li className="md:mr-6 mb-2 md:mb-0">
                 <Link href="/">
                   <a className={router.pathname === '/' ? 'selected' : ''}>
                     Home
                   </a>
                 </Link>
               </li>
-              <li className="mr-6">
+              <li className="md:mr-6 mb-2 md:mb-0">
                 <Link href="/feng-shui-story">
                   <a
                     className={
@@ -54,7 +81,7 @@ const Main = (props: IMainProps) => {
                   </a>
                 </Link>
               </li>
-              <li className="mr-6">
+              <li className="md:mr-6 mb-2 md:mb-0">
                 <Link href="/seoul-feng-shui">
                   <a
                     className={
@@ -65,7 +92,7 @@ const Main = (props: IMainProps) => {
                   </a>
                 </Link>
               </li>
-              <li className="mr-6">
+              <li className="md:mr-6 mb-2 md:mb-0">
                 <Link href="/living-feng-shui">
                   <a
                     className={
@@ -76,7 +103,7 @@ const Main = (props: IMainProps) => {
                   </a>
                 </Link>
               </li>
-              <li className="mr-6">
+              <li className="md:mr-6 mb-2 md:mb-0">
                 <Link href="/about/">
                   <a className={router.pathname === '/about' ? 'selected' : ''}>
                     About
@@ -90,17 +117,21 @@ const Main = (props: IMainProps) => {
 
       {/* Banner Section */}
       {router.pathname === '/' && (
-        <div className="w-full bg-white block">
+        <div className="w-full m-0 p-0 leading-none">
           <img
             src="/assets/images/banner.png"
             alt="배너"
-            className="w-full h-auto block"
+            className="w-full h-auto block m-0 p-0 border-none max-w-none"
           />
         </div>
       )}
 
       {/* Main Content */}
-      <main className="flex-grow w-full py-10">
+      <main
+        className={`flex-grow w-full ${
+          router.pathname === '/' ? 'pb-10' : 'py-10'
+        }`}
+      >
         <div className="max-w-screen-md mx-auto px-4 sm:px-6 bg-white p-6 md:p-10 rounded-xl shadow-sm border border-gray-100">
           {props.children}
         </div>
