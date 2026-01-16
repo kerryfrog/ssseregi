@@ -4,7 +4,6 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 import { AppConfig } from '../utils/AppConfig';
-import { addTrailingSlash } from '../utils/Url';
 
 type IMetaProps = {
   title: string;
@@ -25,10 +24,13 @@ const Meta = (props: IMetaProps) => {
     ? AppConfig.url.slice(0, -1)
     : AppConfig.url;
 
+  // 현재 경로에서 쿼리 스트링을 제외하고 트레일링 슬래시를 제거합니다.
+  const path = router.asPath.split('?')[0];
+  const cleanPath = path === '/' ? '' : path?.replace(/\/$/, '');
+
   // props.canonical이 있으면 그것을 쓰고, 없으면 현재 경로를 기반으로 자동 생성
   const canonicalUrl =
-    props.canonical ||
-    `${baseUrl}${router.basePath}${addTrailingSlash(router.asPath)}`;
+    props.canonical || `${baseUrl}${router.basePath}${cleanPath}`;
 
   return (
     <>
@@ -78,7 +80,7 @@ const Meta = (props: IMetaProps) => {
             <meta property="og:type" content="article" key="og:type" />
             <meta
               property="og:image"
-              content={`${AppConfig.url}${router.basePath}${props.post.image}`}
+              content={`${baseUrl}${router.basePath}${props.post.image}`}
               key="og:image"
             />
             <meta
@@ -112,21 +114,17 @@ const Meta = (props: IMetaProps) => {
               "name": "${AppConfig.author}"
             },
             "@type": "BlogPosting",
-            "url": "${AppConfig.url}${router.basePath}${addTrailingSlash(
-                  router.asPath
-                )}",
+            "url": "${baseUrl}${router.basePath}${cleanPath}",
             "publisher": {
               "@type": "Organization",
               "logo": {
                 "@type": "ImageObject",
-                "url": "${AppConfig.url}${
-                  router.basePath
-                }/assets/images/logo.png"
+                "url": "${baseUrl}${router.basePath}/assets/images/logo.png"
               },
               "name": "${AppConfig.author}"
             },
             "headline": "${props.title} | ${AppConfig.site_name}",
-            "image": ["${AppConfig.url}${router.basePath}${props.post.image}"],
+            "image": ["${baseUrl}${router.basePath}${props.post.image}"],
             "datePublished": "${new Date(props.post.date).toISOString()}",
             ${
               props.post.modified_date
@@ -137,9 +135,7 @@ const Meta = (props: IMetaProps) => {
             }
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "${AppConfig.url}${router.basePath}${addTrailingSlash(
-                  router.asPath
-                )}"
+              "@id": "${baseUrl}${router.basePath}${cleanPath}"
             },
             "@context": "http://schema.org"
           }`,
