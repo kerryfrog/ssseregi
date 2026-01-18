@@ -67,8 +67,24 @@ const AppPrivacy = () => (
         Application:
       </p>
       <ul className="list-disc pl-8">
-        <li>Google Analytics for Firebase</li>
-        <li>Firebase Crashlytics</li>
+        <li className="list-disc">
+          <a
+            href="https://firebase.google.com/support/privacy?hl=ko"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Google Analytics for Firebase
+          </a>
+        </li>
+        <li className="list-disc">
+          <a
+            href="https://firebase.google.com/support/privacy?hl=ko"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Firebase Crashlytics
+          </a>
+        </li>
       </ul>
       <p>
         The Service Provider may disclose User Provided and Automatically
