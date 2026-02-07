@@ -6,5 +6,5 @@ export const AppConfig = {
   url: 'https://ssseregi.com',
   locale: 'ko',
   author: '서도사',
-  pagination_size: 10,
+  pagination_size: 12,
 };

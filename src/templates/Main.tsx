@@ -26,11 +26,19 @@ const Main = (props: IMainProps) => {
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 py-4 flex flex-col md:flex-row items-center justify-between">
           <div className="w-full md:w-auto flex items-center justify-between mb-4 md:mb-0">
             <div className="text-center md:text-left">
-              <div className="font-bold text-2xl text-gray-900 leading-tight hover:text-blue-600 transition-colors">
-                <Link href="/">
-                  <a>{AppConfig.site_name}</a>
-                </Link>
-              </div>
+              <Link href="/">
+                <a className="flex items-center">
+                  <img
+                    src="/assets/images/logo.png"
+                    alt="블로그 로고"
+                    className="h-10 w-auto mr-3"
+                  />{' '}
+                  {/* Adjust height (h-10) and margin as needed */}
+                  <span className="font-bold text-3xl text-gray-900 leading-tight hover:text-blue-600 transition-colors font-serif tracking-tight">
+                    {AppConfig.site_name}
+                  </span>
+                </a>
+              </Link>
               <div className="text-sm text-gray-500 mt-1 hidden md:block">
                 {AppConfig.description}
               </div>
@@ -115,24 +123,43 @@ const Main = (props: IMainProps) => {
         </div>
       </header>
 
-      {/* Banner Section */}
+      {/* Banner Section 수정: 통이미지 대신 텍스트 히어로 섹션 적용 */}
       {router.pathname === '/' && (
-        <div className="w-full m-0 p-0 leading-none">
-          <img
-            src="/assets/images/banner.png"
-            alt="배너"
-            className="w-full h-auto block m-0 p-0 border-none max-w-none"
-          />
+        <div className="relative w-full overflow-hidden bg-slate-900 py-12 md:py-20">
+          {/* 배경 이미지에 블러/어둡게 처리하여 텍스트 강조 */}
+          <div className="absolute inset-0 z-0">
+            <img
+              src="/assets/images/background.jpg"
+              alt="배경 이미지"
+              className="w-full h-full object-cover opacity-40 blur-[2px]"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/60" />
+          </div>
+
+          {/* 텍스트 콘텐츠 영역 */}
+          <div className="relative z-10 max-w-screen-md mx-auto px-6 text-center">
+            <div className="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-blue-400 uppercase border border-blue-400/30 rounded-full bg-blue-400/10">
+              풍수지리 전문: 서도사의 풍수지리
+            </div>
+            <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">
+              {AppConfig.site_name}
+            </h1>
+            <p className="text-lg md:text-xl text-gray-300 font-light leading-relaxed max-w-lg mx-auto">
+              자연은 스스로 말하지 않지만, 그 안에 머무는 사람에게는 끊임없이
+              기운을 전달합니다. <br className="hidden md:block" />
+              비우고 채우는 풍수의 지혜를 통해 일상의 조화를 되찾아보세요.{' '}
+              <br className="hidden md:block" />
+              서도사가 들려주는 땅과 공간에 얽힌 따뜻한 이야기들이 당신의 인생을
+              더욱 풍요롭고 긍정적인 방향으로 안내할 것입니다.
+            </p>
+          </div>
         </div>
       )}
 
-      {/* Main Content */}
-      <main
-        className={`flex-grow w-full ${
-          router.pathname === '/' ? 'pb-10' : 'py-10'
-        }`}
-      >
-        <div className="max-w-screen-md mx-auto px-4 sm:px-6 bg-white p-6 md:p-10 rounded-xl shadow-sm border border-gray-100">
+      {/* Main Content 영역의 너비를 조정하여 3열 레이아웃이 여유 있게 들어가도록 합니다 */}
+      <main className="flex-grow w-full py-10">
+        <div className="max-w-screen-xl mx-auto px-4 sm:px-6">
+          {/* 흰색 박스 배경을 제거하거나, 내부 BlogGallery에서 처리하도록 수정 */}
           {props.children}
         </div>
       </main>

@@ -16,6 +16,19 @@ a:hover {
 
 @tailwind utilities;
 
+@layer base {
+  /* 고전적인 느낌을 위한 명조체 설정 */
+  .font-serif {
+    font-family: 'Nanum Myeongjo', 'GyeonggiBatang', serif;
+  }
+}
+
+/* 블로그 제목에만 특화된 스타일을 주고 싶다면 아래를 추가하세요 */
+.navbar-brand-text {
+  font-family: 'Nanum Myeongjo', serif;
+  letter-spacing: -0.05em; /* 고전 서체는 자간이 좁을 때 더 멋스럽습니다 */
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
