@@ -75,5 +75,4 @@ category: 'feng-shui-story'
 - [무학 vs 정도전: 조선 건국의 풍수적 해석](/posts/muhak-vs-jeongdojeon)
 - [경복궁 풍수: 조선 왕조 500년 번영의 비밀](/posts/gyeongbok-palace-feng-shui)
 - [산의 좋은 기운을 우리 집으로, 어떻게 받을 것인가?](/posts/feng-shui-good-energy-from-mountains)
-- [풍수지리로 보는 근현대사: 역사의 흐름 속 기운의 변화](/posts/feng-shui-and-modern-history)
 - [풍수지리를 빛낸 역사 속 인물들: 서도사가 전하는 이야기](/posts/feng-shui-historical-figures)
