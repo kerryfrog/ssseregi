@@ -21,6 +21,18 @@ a:hover {
   .font-serif {
     font-family: 'Nanum Myeongjo', 'GyeonggiBatang', serif;
   }
+
+  /* 마크다운 콘텐츠 내 이미지 중앙 정렬 및 크기 일관성 */
+  .prose img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 450px; /* 최대 높이를 설정하여 너무 큰 이미지 방지 */
+    width: auto; /* max-height 적용 시 너비 비율 유지 */
+    object-fit: contain; /* 이미지 콘텐츠가 잘리지 않고 최대 높이에 맞게 표시 */
+  }
 }
 
 /* 블로그 제목에만 특화된 스타일을 주고 싶다면 아래를 추가하세요 */
